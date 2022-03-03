@@ -1,0 +1,229 @@
+//
+// Main styles
+//
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+	transition: 0.2s;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+pre {
+	margin: 0;
+}
+
+code {
+	background: #ffffff0f;
+	margin-top: 30px;
+	font-size: 12px;
+	padding: 20px 30px;
+	border-radius: 10px;
+	color: #ffffff96;
+	tab-size: 20px;
+	line-height: 1.5;
+}
+
+input {
+	padding: 12px;
+	font-size: 14px;
+	width: 100%;
+	max-width: 400px;
+	border-radius: 5px;
+	border: none;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: normal;
+	margin-bottom: 60px;
+}
+
+.App {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	text-align: center;
+
+	h1 {
+		font-size: 40px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	h2 {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	&-body {
+		display: flex;
+		justify-content: center;
+		flex-grow: 1;
+		padding: 50px 50px 50px 50px;
+	}
+
+	&-link {
+		color: #61dafb;
+	}
+}
+
+.page-wrapper {
+	width: 100%;
+}
+
+.page-fixed {
+	max-width: 1200px;
+}
+
+.page-fixed-sm {
+	max-width: 800px;
+}
+
+// Ofsets
+input + span {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+input + .btn {
+	margin-top: 30px;
+}
+
+* + .btn {
+	margin-top: 20px;
+}
+
+p + .form {
+	margin-top: 30px;
+}
+
+p {
+	margin-top: 6px;
+	margin-bottom: 8px;
+}
+
+.offset-t-30 {
+	margin-top: 30px;
+}
+
+// List
+.list {
+	padding: 0;
+	li {
+		list-style: none;
+	}
+}
+
+// Notification
+.form-notification {
+	background: #b01d8e;
+	padding: 12px 30px;
+	border-radius: 6px;
+	line-height: 1.2;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+// Btn styles
+.App .btn {
+	padding: 14px 20px;
+	background-color: #61dafb;
+	color: #000;
+	border-radius: 5px;
+	transition: 0.2s;
+	display: inline-block;
+	font-size: 15px;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+
+	&:hover {
+		color: #000;
+		background-color: #43b0ce;
+	}
+}
+
+// Form styles
+.form-wrapper {
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.textarea {
+	width: 100%;
+	height: 200px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	span {
+		color: rgb(236, 236, 236, 0.5);
+	}
+
+	input + input {
+		margin-top: 20px;
+	}
+}
+
+// Menu styles
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-item + .menu-item {
+	margin-left: 30px;
+}
+
+// Helpers
+.text-left {
+	text-align: left;
+}
+
+// Table styles
+.App {
+	.MuiTableCell-root {
+		padding: 4px 16px;
+		line-height: 1.2;
+	}
+
+	.MTableHeader-header-13 {
+		padding: 10px 16px;
+	}
+
+	.css-1480iag-MuiInputBase-root-MuiInput-root {
+		font-size: 12px;
+	}
+	.css-1869usk-MuiFormControl-root {
+		margin: 0;
+	}
+
+	.Component-horizontalScrollContainer-12 {
+		max-height: 660px;
+	}
+
+	.MuiTableCell-root {
+		font-size: 12px !important;
+		letter-spacing: 0;
+	}
+}
