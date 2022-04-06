@@ -1,4 +1,4 @@
-# Coinlist account generation (Demo app)
+# CL account generation (Demo app)
 
 Generally it is a CRUD app to store emails, proxy and accounts data. Also it can create accounts on the Сoinlist platform using Selenium and make some automation tasks.
 
@@ -9,7 +9,7 @@ App server have CRUD REST API for emails, proxy and accounts. When you create ac
 
 ## App pages:
 
-Main function is creation of new account, server use Selenium to run the browser, create account, verify email, create entity on Coinlist, fill a lot of forms and get verification link from QR code. 
+Main function is creation of new account, server use Selenium to run the browser, create account, verify email, create entity on CL exchange, fill a lot of forms and get verification link from QR code. 
 
 For this you need email and proxy, witch you can add on related pages. 
 
